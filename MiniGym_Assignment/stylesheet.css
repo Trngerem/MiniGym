@@ -1,0 +1,154 @@
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+body main a{
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.btn-primary {
+    color: rgb(203, 49, 49);
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+  
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+  
+  /* Sticky footer styles
+  -------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+     font-size: 16px;
+  }
+}
+  
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+  
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+  
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+  
+  /* Sticky footer styles
+  -------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: rgb(47, 220, 32);
+}
+
+.container {
+  min-height: 100%;
+}
+
+.title{
+  color : rgb(36, 86, 186);
+  text-decoration: underline;
+
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.bgColor {
+  background: linear-gradient(141deg, #e5562c 0%, #e5732c 51%, #e5902c 75%);
+}
+
+main {
+  margin: 0;
+  padding: 5px;
+}
+
+.bottom {
+  position: absolute; bottom: 65px;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  background: rgb(235, 229, 229);
+  border-radius: 10px;;
+  border: 1px solid rgb(196, 10, 41);
+  opacity: 0.70;
+}
+.box input[type="text"], .box input[type="password"]{
+  background: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(188, 218, 41);
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+
+.class-form control
+
+.box input[type="submit"] {
+  border-radius: 15px;
+  background: rgb(181, 105, 17);
+  opacity: 0.7;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+}
+
+.box input[type="submit"]:hover{
+  background: rgb(207, 186, 94);
+  color: white;
+}
+
+.box h2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+ width: 230px;  
+ border: 5px solid rgb(231, 218, 26);
+
+}
